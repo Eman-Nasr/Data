@@ -12,12 +12,13 @@
 
     <script>
         const csvFiles = [
-            'https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part1.csv',
-            'https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part2.csv',
-            'https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part3.csv',
-            'https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part4.csv',
-            'https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part5.csv'
-        ];
+    'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part1.csv',
+    'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part2.csv',
+    'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part3.csv',
+    'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part4.csv',
+    'https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Eman-Nasr/Data/main/accidents_part5.csv'
+];
+
 
         const fetchData = (file) => {
             return new Promise((resolve, reject) => {
